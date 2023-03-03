@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
+    console.log(products);
     const [cart, setCart] = useCart(products);
     // products to be rendered on the UI
     const [displayProducts, setDisplayProducts] = useState([]);
